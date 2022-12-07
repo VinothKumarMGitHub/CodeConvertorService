@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "codeconvertordev"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1oc30u0z9m16r"
+s3_prefix = "codeconvertordev"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
